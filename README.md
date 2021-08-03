@@ -10,7 +10,7 @@
 
      ```c++
      ~/catkin_ws/src
-     catkin_create_pkg PlanarSLAM roscpp std_msgs cv_bridge camera_model message_filters
+     catkin_create_pkg PlanarSLAM roscpp std_msgs cv_bridge message_filters
      ```
 
 2. 将我写的main_ros.cc拷贝至源作者Examples/RGB-D 下,并统一拷贝至PlanarSLAM功能包下
@@ -29,6 +29,7 @@
              std_msgs
              sensor_msgs
              cv_bridge
+             camera_model
              message_filters
              )
      include_directories(
