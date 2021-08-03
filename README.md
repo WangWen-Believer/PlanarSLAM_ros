@@ -29,7 +29,6 @@
              std_msgs
              sensor_msgs
              cv_bridge
-             camera_model
              message_filters
              )
      include_directories(
